@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		
+
+		function retornanome(){
+
+			var nome = "Luiz";
+		    var sobrenome = " Lobo";
+
+			var nomecompleto = nome.concat(sobrenome);
+
+			console.log(nomecompleto);
+
+			return nomecompleto; 
+		}
+
+		retornanome();
+
+
+
+
+	</script>
+
+</body>
+</html>
