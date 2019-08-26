@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exibindo através de um Alert o título de uma página: Hello Word !</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var titulo = document.title;
+
+		alert(titulo);
+	</script>
+
+</body>
+</html>
