@@ -1,0 +1,11 @@
+var x = document.getElementsByTagName("ytd-playlist-video-renderer").length;
+
+var vetor = [];
+
+
+for (i = 0; i < x; i++) {
+
+    var music = document.getElementsByTagName("ytd-playlist-video-renderer")[i].children[1].children[0].href;
+    console.log(music);
+    vetor.push(music);
+}
