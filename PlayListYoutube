@@ -1,3 +1,5 @@
+// Acessar página de playlist exemplo: https://www.youtube.com/playlist?list=PLqmKfvQ04QcV6slbNOYrXFJPkPUX9gQaf
+
 var x = document.getElementsByTagName("ytd-playlist-video-renderer").length;
 
 var vetor = [];
